@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Sofia Sans Condensed', sans-serif;
+  font-weight: 400;
+}
+
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 768px) {
+  body {
+    margin: 0 .5rem 0 .5rem;
+  }
+}
