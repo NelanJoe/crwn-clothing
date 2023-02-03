@@ -6,7 +6,7 @@ import SignIn from "./routes/sign-in/sign-in.component";
 const Shop = () => {
   return (
     <div>
-      <h1>Hello, World</h1>
+      <h1>This is shop page</h1>
     </div>
   );
 };
