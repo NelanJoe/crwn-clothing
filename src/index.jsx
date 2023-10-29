@@ -6,10 +6,13 @@ import { UserProvider } from "./contexts/user.context";
 import { CategoriesProvider } from "./contexts/categories.context";
 import { CartProvider } from "./contexts/cart.content";
 
+import { GlobalStyle } from "./global.styles";
+
 const rootEl = document.getElementById("root");
 const root = ReactDOM.createRoot(rootEl);
 root.render(
   <BrowserRouter>
+    <GlobalStyle />
     <UserProvider>
       <CategoriesProvider>
         <CartProvider>

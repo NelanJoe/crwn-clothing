@@ -1,7 +1,5 @@
 import { Route, Routes } from "react-router-dom";
 
-import { GlobalStyle } from "./global.styles";
-
 import Home from "./routes/home/home.component";
 import Navigation from "./routes/navigation/navigation.component";
 import Authentication from "./routes/authentication/authentication.component";
@@ -11,7 +9,6 @@ import Checkout from "./routes/checkout/checkout.component";
 const App = () => {
   return (
     <Routes>
-      <GlobalStyle />
       <Route path="/" element={<Navigation />}>
         <Route index element={<Home />} />
         <Route path="shop/*" element={<Shop />} />
