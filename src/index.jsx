@@ -3,7 +3,6 @@ import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 
 import App from "./App";
-import { CartProvider } from "./contexts/cart.content";
 import { store } from "./store/store";
 
 import { GlobalStyle } from "./global.styles";
@@ -15,9 +14,7 @@ root.render(
   <Provider store={store}>
     <BrowserRouter>
       <GlobalStyle />
-      <CartProvider>
-        <App />
-      </CartProvider>
+      <App />
     </BrowserRouter>
   </Provider>
 );
