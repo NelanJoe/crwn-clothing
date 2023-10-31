@@ -65,6 +65,7 @@ const SignInForm = () => {
           required
           onChange={handleChange}
           name="email"
+          autoComplete="email"
           value={email}
         />
         <FormInput
@@ -73,7 +74,7 @@ const SignInForm = () => {
           required
           onChange={handleChange}
           name="password"
-          autocomplete="current-password"
+          autoComplete="current-password"
           value={password}
         />
         <ButtonsContainer>
