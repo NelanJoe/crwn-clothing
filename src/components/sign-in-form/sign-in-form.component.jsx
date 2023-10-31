@@ -73,6 +73,7 @@ const SignInForm = () => {
           required
           onChange={handleChange}
           name="password"
+          current-password="password"
           value={password}
         />
         <ButtonsContainer>

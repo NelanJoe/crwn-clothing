@@ -84,6 +84,7 @@ const SignUpForm = () => {
           required
           onChange={handleChange}
           name="password"
+          current-password="password"
           value={password}
         />
         <FormInput
@@ -92,6 +93,7 @@ const SignUpForm = () => {
           required
           onChange={handleChange}
           name="confirmPassword"
+          new-password="password"
           value={confirmPassword}
         />
         <Button type="submit" buttonType={"inverted"}>
