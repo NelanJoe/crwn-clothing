@@ -73,7 +73,7 @@ const SignInForm = () => {
           required
           onChange={handleChange}
           name="password"
-          current-password="password"
+          autocomplete="current-password"
           value={password}
         />
         <ButtonsContainer>
